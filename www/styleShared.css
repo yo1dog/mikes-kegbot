@@ -1,0 +1,66 @@
+/**********************************************
+ Error
+ *********************************************/
+.errorMessage
+{
+	padding: 5px;
+}
+.errorDetails
+{
+	border: 1px dashed #999;
+	padding: 3px;
+	width: 100%;
+	
+	display: none;
+	font-size: 12px;
+}
+.errorDetailsLink
+{
+	font-size: 12px;
+}
+
+#error-window
+{
+	padding: 0px;
+	margin: 0px;
+	
+	width: 100%;
+	
+	display: none;
+	position: fixed;
+	bottom: 0px;
+	
+	background-color: #FF9393;
+}
+
+#error-window-container
+{
+	margin: 0px auto 20px auto;
+	padding: 0px;
+	
+	width: 50%;
+	
+	font-size: 18pt;
+}
+
+#error-window-title
+{
+	font-weight: bold;
+}
+
+#error-window-message
+{
+	margin-top: 10px;
+	font-size: 10pt;
+	font-family: "Courier New";
+}
+
+/**********************************************
+ Form
+ *********************************************/
+.alertText
+{
+	font-size: 12px;
+	color: #F00;
+	display: none;
+}

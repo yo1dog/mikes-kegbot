@@ -1,0 +1,52 @@
+body
+{
+	font-family: Arial;
+}
+
+body, table, input, select
+{
+	font-size: 12px;
+}
+
+a
+{
+	color: #00F;
+	text-decoration: none;
+}
+
+h3
+{
+	margin-top: 14px;
+	margin-bottom: 7px;
+}
+
+hr
+{
+	margin-top: 7px;
+	margin-bottom: 14px;
+}
+
+td, th
+{
+	padding-left: 3px;
+	padding-right: 5px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	
+	white-space: nowrap;
+}
+
+td + td, th + th
+{
+	padding-left: 10px;
+}
+
+.alt
+{
+	background-color: #E5E5E5;
+}
+
+.empty-keg
+{
+	color: red;
+}
